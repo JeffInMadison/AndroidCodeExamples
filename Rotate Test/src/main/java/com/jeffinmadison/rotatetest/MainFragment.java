@@ -1,7 +1,5 @@
 package com.jeffinmadison.rotatetest;
 
-
-
 import android.animation.Animator;
 import android.content.res.Configuration;
 import android.hardware.SensorManager;
@@ -9,11 +7,11 @@ import android.os.Bundle;
 import android.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.OrientationEventListener;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
-
 
 /**
  * A simple {@link Fragment} subclass.
@@ -33,7 +31,7 @@ public class MainFragment extends Fragment {
     private String mParam1;
     private String mParam2;
     private Button mTestButton;
-    private OrientationEventListener mOrientationEventListener;
+    private RotationOrientationEventListener mOrientationEventListener;
     private TextView mOrientationTextView;
 
 
