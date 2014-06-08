@@ -1,10 +1,10 @@
 package com.jeffinmadison.rotatetest;
 
 import android.animation.Animator;
+import android.app.Fragment;
 import android.content.res.Configuration;
 import android.hardware.SensorManager;
 import android.os.Bundle;
-import android.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.OrientationEventListener;
@@ -103,7 +103,6 @@ public class MainFragment extends Fragment {
             Log.d(TAG, "Orientation: " + String.valueOf(orientation));
             mOrientationTextView.setText(String.valueOf(orientation));
             int rotationDegrees = 0;
-            Orientation rotationOrientation = Orientation.unspecified;
             if ((orientation >= 315 && orientation < 360) ||
                 (orientation > 0 && orientation <= 45)){
                 rotationDegrees = 0;
@@ -141,13 +140,5 @@ public class MainFragment extends Fragment {
                 });
             }
         }
-    }
-
-    private enum Orientation {
-        landscape,
-        reverseLandscape,
-        portrait,
-        reversePortrait,
-        unspecified
     }
 }
