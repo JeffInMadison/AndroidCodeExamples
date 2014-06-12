@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidCodeExamples.iml" filepath="$PROJECT_DIR$/AndroidCodeExamples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Rotate Test/Rotate Test.iml" filepath="$PROJECT_DIR$/Rotate Test/Rotate Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProductFlavorsExample/ProductFlavorsExample.iml" filepath="$PROJECT_DIR$/ProductFlavorsExample/ProductFlavorsExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rotate Example/Rotate Example.iml" filepath="$PROJECT_DIR$/Rotate Example/Rotate Example.iml" />
       <module fileurl="file://$PROJECT_DIR$/Simple Activity/Simple Activity.iml" filepath="$PROJECT_DIR$/Simple Activity/Simple Activity.iml" />
     </modules>
   </component>
