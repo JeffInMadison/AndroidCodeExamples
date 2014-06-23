@@ -1,1 +1,1 @@
-include ':Simple Activity', ':ProductFlavorsExample', 'Rotate Example'
+include ':Simple Activity', ':ProductFlavorsExample', ':UsingSquare', 'Rotate Example'
